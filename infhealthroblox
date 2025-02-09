@@ -1,0 +1,4 @@
+local humanoid = game.Players.Localplayer.Character:FindFirstChildOfClass("Humanoid")
+
+humanoid.MaxHealth = 1000000000
+humanoid.Health = 1000000000
