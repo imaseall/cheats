@@ -1,0 +1,9 @@
+local lighting = Instance.new("ColorCorrectionEffect")
+local musicbox = 1837786350
+local sound = Instance.new("Sound")
+sound.SoundId = musicbox
+
+lighting.Parent = game.Lighting
+sound:Play()
+lighting.Contrast = 9999
+lighting.Brightness = 9999
